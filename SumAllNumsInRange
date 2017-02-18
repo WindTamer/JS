@@ -1,9 +1,9 @@
 function sumAll(arr) {
   
-  var max = Math.max(arr[0], arr[1]);
-  var min = Math.min(arr[0], arr[1]);
+  var max = Math.max(arr[0], arr[1]);    //stores the biggest number from the array
+  var min = Math.min(arr[0], arr[1]);    //stores the smallest number from the array
   
-  var myArr = [];
+  var myArr = [];   //an array to store all the numbers from the given range
   
   for (var i = min; i<= max; i++) {
     myArr.push(i);
